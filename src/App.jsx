@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "http://localhost:8081/api/tasks";
+const API_URL = "https://studyload-backend.onrender.com/api/tasks";
 
 const EMPTY_FORM = {
   title: "",
